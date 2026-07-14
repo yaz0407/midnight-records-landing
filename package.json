@@ -1,0 +1,17 @@
+{
+  "name": "midnight-records-landing",
+  "version": "1.0.0",
+  "description": "Landing page con backend Express y soporte PostgreSQL para Railway",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
